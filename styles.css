@@ -1,0 +1,118 @@
+/*esto es un comentario en css*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:ital,wght@0,100;0,400;0,900;1,100;1,400&display=swap');
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.bg-navbar{
+    background-color: #050505;
+}
+.nav-link{
+    color: #fff;
+}
+
+.nav-link:hover{
+    color: #e01552;
+}
+
+
+.list-group{
+    --bs-list-group-bg: transparent;
+}
+
+.fotoperfil {
+    padding-left: 15%;
+}
+.fa-brands.fa-instagram.fa-2x.text-white:hover {
+    --bs-text-opacity: 1;
+    color: #a50d33 !important;
+}
+
+.fa-brands.fa-github.fa-2x.text-white:hover {
+    --bs-text-opacity: 1;
+    color:#c9511a !important;
+}
+
+.fa-brands.fa-facebook.fa-2x.text-white:hover {
+    --bs-text-opacity: 1;
+    color:#1e12c2 !important;
+}
+
+.fa-solid.fa-right-to-bracket.fa-2x.text-white:hover {
+    --bs-text-opacity: 1;
+    color:#db11ca !important;
+}
+
+div.fondo{
+  background-color: #e48181;
+}
+h2.saludo {
+    font-size: 3rem;
+}
+h3.nombre {
+    font-size: 2rem;
+}
+h5.sobremi {
+    font-style: oblique;
+}
+h5.informacionpersonal {
+    padding-left: 10%;
+}
+h4.experiencia {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h4.formacion {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h5.grido {
+    padding-top: 5%;
+    padding-right: 2%;
+}
+h5.anastasio {
+    padding-top: 6%;
+    padding-right: 2%;
+}
+h5.aprendiendo {
+    padding-top: 6%;
+}
+.HTML {
+    fill: none;
+    stroke: #4b23df;
+    stroke-width: 20;
+    stroke-dasharray: var(--porcentaje) 100;
+    transform: rotate(-90deg);
+    transform-origin: 50%;
+}
+.porcentaje {
+    --porcentaje: 75;
+}
+.porcentaje1 {
+    --porcentaje: 70;
+}
+.porcentaje2 {
+    --porcentaje: 50;
+}
+.GRIS {
+    stroke-dasharray: 100 10;
+    stroke: #645d5d;
+}
+.porcentaje3 {
+    --porcentaje: 100;
+}
+.porcentaje4 {
+    --porcentaje: 90;
+}
+.porcentaje5 {
+    --porcentaje: 85;
+}
+.piedepagina {
+    background-color: #050505;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.titulo {
+    background-color: #503939;
+}
+
